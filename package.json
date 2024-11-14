@@ -1,6 +1,6 @@
 {
   "home": "https://ashgole.github.io/aastra_drawwall/",
-  "name": "aastra_drawwall",
+  "name": "aastra_threejs_drawwall",
   "private": true,
   "version": "0.0.0",
   "type": "module",
