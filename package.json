@@ -1,0 +1,46 @@
+{
+  "home": "https://ashgole.github.io/aastra_drawwall/",
+  "name": "aastra_drawwall",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@leva-ui/plugin-dates": "^0.9.32",
+    "@react-three/drei": "^9.112.0",
+    "@react-three/fiber": "^8.17.6",
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "dotenv": "^16.4.5",
+    "gsap": "^3.12.5",
+    "jotai": "^2.10.0",
+    "leva": "^0.9.35",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.2",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.13",
+    "react-router-dom": "^6.21.1",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.0"
+  },
+  "overrides": {
+    "leva": {
+      "@radix-ui/react-portal": "1.0.2"
+    }
+  }
+}
