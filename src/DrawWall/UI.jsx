@@ -40,6 +40,11 @@ const UI = () => {
           New Line
         </button>
       </div>
+      <a href='https://www.ashabb.com/' target="_blank">
+        <div className='p-2 underline  '>
+          Ashish Gole's <br />Threejs Project<br/>for Astramep.
+        </div>
+      </a>
     </div>
   );
 };
